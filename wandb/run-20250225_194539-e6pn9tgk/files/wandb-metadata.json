@@ -1,0 +1,43 @@
+{
+  "os":  "macOS-14.6.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.5",
+  "startedAt":  "2025-02-25T14:15:39.336227Z",
+  "program":  "/Users/shreya/Documents/CS203_Lab06/main.ipynb",
+  "codePath":  "main.ipynb",
+  "git":  {
+    "remote":  "https://github.com/shreyamali01/CS203_Lab06.git"
+  },
+  "email":  "shreya.mali@iitgn.ac.in",
+  "root":  "/Users/shreya/Documents/CS203_Lab06",
+  "host":  "shreyas-MacBook-Air-2.local",
+  "executable":  "/Users/shreya/venv/bin/python",
+  "codePathLocal":  "main.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "141072535552"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "141072535552"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "8589934592",
+    "ramTotalBytes":  "8589934592"
+  }
+}

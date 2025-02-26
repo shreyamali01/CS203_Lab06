@@ -1,0 +1,249 @@
+Collecting numpy==1.26.0
+  Using cached numpy-1.26.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (53 kB)
+Using cached numpy-1.26.0-cp312-cp312-macosx_11_0_arm64.whl (13.7 MB)
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.3
+    Uninstalling numpy-2.2.3:
+      Successfully uninstalled numpy-2.2.3
+Successfully installed numpy-1.26.0
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Collecting scikit-learn
+  Using cached scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (31 kB)
+Collecting numpy>=1.19.5 (from scikit-learn)
+  Using cached numpy-2.2.3-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting scipy>=1.6.0 (from scikit-learn)
+  Using cached scipy-1.15.2-cp312-cp312-macosx_14_0_arm64.whl.metadata (61 kB)
+Collecting joblib>=1.2.0 (from scikit-learn)
+  Using cached joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn)
+  Using cached threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Using cached scikit_learn-1.6.1-cp312-cp312-macosx_12_0_arm64.whl (11.2 MB)
+Using cached joblib-1.4.2-py3-none-any.whl (301 kB)
+Using cached numpy-2.2.3-cp312-cp312-macosx_14_0_arm64.whl (5.1 MB)
+Using cached scipy-1.15.2-cp312-cp312-macosx_14_0_arm64.whl (22.4 MB)
+Using cached threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, numpy, joblib, scipy, scikit-learn
+  Attempting uninstall: threadpoolctl
+    Found existing installation: threadpoolctl 3.5.0
+    Uninstalling threadpoolctl-3.5.0:
+      Successfully uninstalled threadpoolctl-3.5.0
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.26.0
+    Uninstalling numpy-1.26.0:
+      Successfully uninstalled numpy-1.26.0
+  Attempting uninstall: joblib
+    Found existing installation: joblib 1.4.2
+    Uninstalling joblib-1.4.2:
+      Successfully uninstalled joblib-1.4.2
+  Attempting uninstall: scipy
+    Found existing installation: scipy 1.15.2
+    Uninstalling scipy-1.15.2:
+      Successfully uninstalled scipy-1.15.2
+  Attempting uninstall: scikit-learn
+    Found existing installation: scikit-learn 1.6.1
+    Uninstalling scikit-learn-1.6.1:
+      Successfully uninstalled scikit-learn-1.6.1
+[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow 2.18.0 requires numpy<2.1.0,>=1.26.0, but you have numpy 2.2.3 which is incompatible.[0m[31m
+[0mSuccessfully installed joblib-1.4.2 numpy-2.2.3 scikit-learn-1.6.1 scipy-1.15.2 threadpoolctl-3.5.0
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: setuptools in /Users/shreya/venv/lib/python3.12/site-packages (75.8.0)
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: matplotlib in /Users/shreya/venv/lib/python3.12/site-packages (3.10.0)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (1.4.8)
+Requirement already satisfied: numpy>=1.23 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (2.2.3)
+Requirement already satisfied: packaging>=20.0 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (24.2)
+Requirement already satisfied: pillow>=8 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /Users/shreya/venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: seaborn in /Users/shreya/venv/lib/python3.12/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /Users/shreya/venv/lib/python3.12/site-packages (from seaborn) (2.2.3)
+Requirement already satisfied: pandas>=1.2 in /Users/shreya/venv/lib/python3.12/site-packages (from seaborn) (2.2.3)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /Users/shreya/venv/lib/python3.12/site-packages (from seaborn) (3.10.0)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.56.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.8)
+Requirement already satisfied: packaging>=20.0 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (24.2)
+Requirement already satisfied: pillow>=8 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (11.1.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.2.1)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/shreya/venv/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/shreya/venv/lib/python3.12/site-packages (from pandas>=1.2->seaborn) (2025.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/shreya/venv/lib/python3.12/site-packages (from pandas>=1.2->seaborn) (2025.1)
+Requirement already satisfied: six>=1.5 in /Users/shreya/venv/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.17.0)
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Requirement already satisfied: wandb in /Users/shreya/venv/lib/python3.12/site-packages (0.19.7)
+Requirement already satisfied: click!=8.0.0,>=7.1 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (8.1.8)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (3.1.44)
+Requirement already satisfied: platformdirs in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (4.3.6)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (5.29.3)
+Requirement already satisfied: psutil>=5.0.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (7.0.0)
+Requirement already satisfied: pydantic<3,>=2.6 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (2.10.6)
+Requirement already satisfied: pyyaml in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (6.0.2)
+Requirement already satisfied: requests<3,>=2.0.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (2.22.0)
+Requirement already satisfied: setproctitle in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in /Users/shreya/venv/lib/python3.12/site-packages (from wandb) (75.8.0)
+Requirement already satisfied: six>=1.4.0 in /Users/shreya/venv/lib/python3.12/site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /Users/shreya/venv/lib/python3.12/site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.12)
+Requirement already satisfied: annotated-types>=0.6.0 in /Users/shreya/venv/lib/python3.12/site-packages (from pydantic<3,>=2.6->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in /Users/shreya/venv/lib/python3.12/site-packages (from pydantic<3,>=2.6->wandb) (2.27.2)
+Requirement already satisfied: typing-extensions>=4.12.2 in /Users/shreya/venv/lib/python3.12/site-packages (from pydantic<3,>=2.6->wandb) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/shreya/venv/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /Users/shreya/venv/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/shreya/venv/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/shreya/venv/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<6,>=3.0.1 in /Users/shreya/venv/lib/python3.12/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.2)
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m24.2[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+Note: you may need to restart the kernel to use updated packages.
+Raw Labels:
+ [0 0 0 0 0 0 0 0 0 0]
+One-Hot Encoded Labels:
+ [[1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]
+ [1. 0. 0.]]
+Original y shape: (150, 1)
+One-hot encoded y shape: (150, 3)
+Original dataset shape: (150, 4) (150, 3)
+Training set shape: (105, 4) (105, 3)
+Validation set shape: (15, 4) (15, 3)
+Testing set shape: (30, 4) (30, 3)
+/Users/shreya/venv/lib/python3.12/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 32ms/step - accuracy: 0.1679 - loss: 1.0637 - val_accuracy: 0.4000 - val_loss: 1.0561
+Epoch 2/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.1859 - loss: 1.0359 - val_accuracy: 0.3333 - val_loss: 1.0324
+Epoch 3/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.2119 - loss: 1.0057 - val_accuracy: 0.4000 - val_loss: 1.0097
+Epoch 4/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.3000 - loss: 0.9817 - val_accuracy: 0.4667 - val_loss: 0.9880
+Epoch 5/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.4183 - loss: 0.9520 - val_accuracy: 0.5333 - val_loss: 0.9676
+Epoch 6/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.4665 - loss: 0.9375 - val_accuracy: 0.4667 - val_loss: 0.9480
+Epoch 7/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6098 - loss: 0.9092 - val_accuracy: 0.5333 - val_loss: 0.9285
+Epoch 8/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6424 - loss: 0.8769 - val_accuracy: 0.4667 - val_loss: 0.9090
+Epoch 9/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6413 - loss: 0.8629 - val_accuracy: 0.5333 - val_loss: 0.8911
+Epoch 10/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6674 - loss: 0.8374 - val_accuracy: 0.5333 - val_loss: 0.8739
+Epoch 11/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6184 - loss: 0.8394 - val_accuracy: 0.5333 - val_loss: 0.8575
+Epoch 12/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6535 - loss: 0.8082 - val_accuracy: 0.6000 - val_loss: 0.8418
+Epoch 13/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6615 - loss: 0.7943 - val_accuracy: 0.6000 - val_loss: 0.8268
+Epoch 14/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6948 - loss: 0.7571 - val_accuracy: 0.6000 - val_loss: 0.8128
+Epoch 15/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6823 - loss: 0.7476 - val_accuracy: 0.6000 - val_loss: 0.7994
+Epoch 16/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6802 - loss: 0.7361 - val_accuracy: 0.6000 - val_loss: 0.7863
+Epoch 17/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6729 - loss: 0.7192 - val_accuracy: 0.6000 - val_loss: 0.7737
+Epoch 18/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6715 - loss: 0.7021 - val_accuracy: 0.6000 - val_loss: 0.7618
+Epoch 19/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6722 - loss: 0.6980 - val_accuracy: 0.6000 - val_loss: 0.7505
+Epoch 20/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7288 - loss: 0.6594 - val_accuracy: 0.6000 - val_loss: 0.7398
+Epoch 21/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7295 - loss: 0.6589 - val_accuracy: 0.6000 - val_loss: 0.7292
+Epoch 22/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 13ms/step - accuracy: 0.7687 - loss: 0.6309 - val_accuracy: 0.6000 - val_loss: 0.7189
+Epoch 23/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7621 - loss: 0.6225 - val_accuracy: 0.6000 - val_loss: 0.7089
+Epoch 24/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7152 - loss: 0.6326 - val_accuracy: 0.6667 - val_loss: 0.6994
+Epoch 25/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.6881 - loss: 0.6456 - val_accuracy: 0.6667 - val_loss: 0.6905
+Epoch 26/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 9ms/step - accuracy: 0.7638 - loss: 0.5973 - val_accuracy: 0.6667 - val_loss: 0.6825
+Epoch 27/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7516 - loss: 0.5982 - val_accuracy: 0.6667 - val_loss: 0.6745
+Epoch 28/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7780 - loss: 0.5749 - val_accuracy: 0.6667 - val_loss: 0.6670
+Epoch 29/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.7721 - loss: 0.5855 - val_accuracy: 0.6667 - val_loss: 0.6601
+Epoch 30/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8134 - loss: 0.5502 - val_accuracy: 0.6667 - val_loss: 0.6538
+Epoch 31/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8318 - loss: 0.5148 - val_accuracy: 0.6667 - val_loss: 0.6480
+Epoch 32/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8120 - loss: 0.5517 - val_accuracy: 0.6667 - val_loss: 0.6419
+Epoch 33/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8130 - loss: 0.5243 - val_accuracy: 0.6667 - val_loss: 0.6361
+Epoch 34/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8529 - loss: 0.5107 - val_accuracy: 0.6667 - val_loss: 0.6300
+Epoch 35/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8654 - loss: 0.5007 - val_accuracy: 0.6667 - val_loss: 0.6239
+Epoch 36/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8460 - loss: 0.5055 - val_accuracy: 0.6667 - val_loss: 0.6180
+Epoch 37/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8252 - loss: 0.4985 - val_accuracy: 0.6667 - val_loss: 0.6126
+Epoch 38/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8366 - loss: 0.4908 - val_accuracy: 0.6667 - val_loss: 0.6073
+Epoch 39/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8179 - loss: 0.4908 - val_accuracy: 0.6667 - val_loss: 0.6023
+Epoch 40/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8512 - loss: 0.4816 - val_accuracy: 0.6667 - val_loss: 0.5976
+Epoch 41/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8346 - loss: 0.4666 - val_accuracy: 0.6667 - val_loss: 0.5929
+Epoch 42/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8096 - loss: 0.4930 - val_accuracy: 0.6667 - val_loss: 0.5881
+Epoch 43/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8387 - loss: 0.4618 - val_accuracy: 0.6667 - val_loss: 0.5841
+Epoch 44/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8300 - loss: 0.4624 - val_accuracy: 0.6667 - val_loss: 0.5796
+Epoch 45/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8467 - loss: 0.4667 - val_accuracy: 0.6667 - val_loss: 0.5754
+Epoch 46/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8279 - loss: 0.4520 - val_accuracy: 0.6667 - val_loss: 0.5710
+Epoch 47/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8463 - loss: 0.4574 - val_accuracy: 0.6667 - val_loss: 0.5666
+Epoch 48/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8411 - loss: 0.4422 - val_accuracy: 0.7333 - val_loss: 0.5627
+Epoch 49/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8547 - loss: 0.4319 - val_accuracy: 0.7333 - val_loss: 0.5583
+Epoch 50/50
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 10ms/step - accuracy: 0.8526 - loss: 0.4305 - val_accuracy: 0.7333 - val_loss: 0.5537
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 30ms/step
+Accuracy: 0.9
+Precision: 0.9272727272727274
+Recall: 0.9
+F1-score: 0.8912280701754386
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
